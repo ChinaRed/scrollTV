@@ -1,0 +1,99 @@
+@import url(http://fonts.googleapis.com/css?family=Faster+One);
+@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+html{
+  background-image: url('/images/wallpaper.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+body{
+  background-image: url('/images/tv.png');
+  background-repeat: no-repeat;
+  background-size: 660px 620px;
+  background-position: center 119px;
+  width: 900px;
+  margin: auto;
+  font-family: "Lato";
+}
+
+h1{
+  font-size: 4em;
+  font-family: "Faster One";
+  text-align: center;
+  margin-top: 30px;
+  color: white;
+}
+
+p{
+  margin: 20px 0 0;
+  color: white;
+  font-size: 1.5em;
+}
+
+.main_container{
+  text-align: center;
+  padding: 137px 52px 50px;
+  width: 900px;
+
+}
+
+.content_container{
+  width: 400px;
+  height: 400px;
+  display: block;
+  overflow: hidden;
+  margin: auto;
+  margin-right: 357px;
+  margin-top: -39px;
+  border-radius: 45px;
+}
+
+.remote_container{
+  background-image: url('/images/woodback.jpg');
+  background-repeat: no-repeat;
+  width: 250px;
+  height: 380px;
+  border: solid 5px grey;
+  border-radius: 25px;
+  position: relative;
+  top: -330px;
+  left: -180px;
+
+}
+
+.image_container{
+  width: 2020px;
+}
+
+.set_scroll{
+  margin-top: 20px;
+}
+
+.image_line{
+  display: inline-block;
+}
+
+.button_line{
+  padding: 10px;
+}
+
+button{
+  margin: 5px;
+  width: 35px;
+  font-size: 1em;
+  text-align: center;
+}
+
+.getpos{
+  margin-top: 25px;
+  width: auto;
+}
+
+img{
+  width: 400px;
+  height: 400px;
+  vertical-align: top;
+
+}
+
