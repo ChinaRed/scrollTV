@@ -1,5 +1,5 @@
 $(document).ready(function(){
-  
+  var href = "http://chinared.github.io/scrollTV/";
   var obj = document.createElement("audio");
   obj.setAttribute("src", "/audio/channelchange.wav");
         
