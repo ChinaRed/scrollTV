@@ -7,8 +7,9 @@ $(document).ready(function(){
 
   $(".getpos").click(function(){
     var container = $(".content_container");
-    var left = container.scrollLeft();
-    var top = container.scrollTop();
+    console.log('container',container);
+    var left = Math.round(container.scrollLeft());
+    var top = Math.round(container.scrollTop());
     $("p").html("Left: " + left + " Top: " + top);
     return false;
   });
