@@ -1,6 +1,6 @@
 $(document).ready(function(){
   var obj = document.createElement("audio");
-  obj.setAttribute("src", "audio/channelchange.wav");
+  obj.setAttribute("src", "http://chinared.github.io/scrollTV/audio/channelchange.wav");
         
   $.get();
 
