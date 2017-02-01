@@ -2,13 +2,13 @@
 @import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 html{
-  background-image: url('images/wallpaper.jpg');
+  background-image: url('http://chinared.github.io/scrollTV/images/wallpaper.jpg');
   background-size: cover;
   background-repeat: no-repeat;
 }
 
 body{
-  background-image: url('images/tv.png');
+  background-image: url('http://chinared.github.io/scrollTV/images/tv.png');
   background-repeat: no-repeat;
   background-size: 660px 620px;
   background-position: center 119px;
@@ -50,7 +50,7 @@ p{
 }
 
 .remote_container{
-  background-image: url('images/woodback.jpg');
+  background-image: url('http://chinared.github.io/scrollTV/images/woodback.jpg');
   background-repeat: no-repeat;
   width: 250px;
   height: 350px;
